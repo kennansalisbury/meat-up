@@ -7,7 +7,7 @@ const EventList = props => {
         {eventList}
         </ul>
     )
-   
-    }
+
+}
 
 export default EventList;

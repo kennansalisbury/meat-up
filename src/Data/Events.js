@@ -1,7 +1,7 @@
 const Events = {
     "data": [
         {
-            "title": "Sarah's D&D Group 1",
+            "title": "Sarahs D and D Group One",
             "date" : "MONDAY, NOV 25",
             "loc": "Seattle, WA",
             "attendies": 10,
@@ -11,7 +11,7 @@ const Events = {
             "time": "6pm - 10pm"
         },
         {
-            "title": "Sarah's D&D Group 2",
+            "title": "Sarahs D and D Group Two",
             "date" : "MONDAY, NOV 25",
             "loc": "Seattle, WA",
             "attendies": 10,
@@ -21,7 +21,7 @@ const Events = {
             "time": "6pm - 10pm"
         },
         {
-            "title": "Sarah's D&D Group 3",
+            "title": "Sarahs D and D Group Three",
             "date" : "MONDAY, NOV 25",
             "loc": "Seattle, WA",
             "attendies": 10,
@@ -31,7 +31,7 @@ const Events = {
             "time": "6pm - 10pm"
         },
         {
-            "title": "Sarah's D&D Group 4",
+            "title": "Sarahs D and D Group Four",
             "date" : "MONDAY, NOV 25",
             "loc": "Seattle, WA",
             "attendies": 10,
@@ -41,7 +41,7 @@ const Events = {
             "time": "6pm - 10pm"
         },
         {
-            "title": "Sarah's D&D Group 5",
+            "title": "Sarahs D and D Group Five",
             "date" : "MONDAY, NOV 25",
             "loc": "Seattle, WA",
             "attendies": 10,
