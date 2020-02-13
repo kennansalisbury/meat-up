@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css'
 import { BrowserRouter as Router } from 'react-router-dom'
-
 import Content from './Content/Content'
 import Nav from './nav/Nav'
 
