@@ -15,6 +15,21 @@
   font-family: 'Luminari';
 }
 
+.events {
+  list-style-type: none;
+  padding-left: 103px;
+  max-width: 500px;
+}
+
+.filter-input {
+  padding-left: 150px;
+  padding-top: 100px;
+}
+
+ul {
+  padding: 25px;
+}
+
 .jumbotron {
   background-image: url("http://cliparts.co/cliparts/8cz/6r8/8cz6r8Kcp.png");
   background-position: center;
