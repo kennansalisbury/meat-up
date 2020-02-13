@@ -19,9 +19,37 @@ code {
     monospace;
 }
 
-.App {
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.658)
+}
+
+
+.profileImage{
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  right: 3%;
+}
+
+.navbar-light .navbar-brand{
+  color: rgb(33, 33, 199)
+}
+
+.navbar-light .navbar-toggler{
+  color: rgb(33, 33, 199)
+}
+
+.AppTitle {
   font-family: 'Luminari';
-  display: block;
-  margin: 0 auto;
+  font-size: 2em;
+}
+
+.Menu {
+  position: absolute;
+  left: 3%;
 }
 
