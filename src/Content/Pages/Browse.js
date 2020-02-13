@@ -16,18 +16,19 @@ class Browse extends React.Component{
         const filterValue = e.target.value;
         this.setState((prevState, props) => {
             const filteredEvents = props.events.filter(event => 
-            event.toLowerCase().includes(filterValue.toLowerCase()))
-            return {
-                eventsToDisplay: filteredEvents,
-                filterValue
-            }
-        })
-    }
-    render () {
-        return (
+                event.title.toLowerCase().includes(filterValue.toLowerCase()))
+                return {
+                    EventsToDisplay: filteredEvents,
+                    filterValue
+                }
+            })
+        }
+
+        render () {
+            return (
             <div className='app'>
-            <FilterInput value={this.state.filterValue} handleFilterChange={this.handleFilterChange} />
-            <EventList events={this.state.EventsToDisplay} />
+                <FilterInput value={this.state.filterValue} handleFilterChange={this.handleFilterChange} />
+                <EventList events={this.state.EventsToDisplay} />
             </div>
         )
     }

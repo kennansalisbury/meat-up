@@ -26,8 +26,6 @@ const Content = props => {
             <Route path='/signup' render={
                 () => <Signup/>
             }/>
-
-
         </div>
     )
 }
