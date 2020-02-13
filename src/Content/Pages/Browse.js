@@ -1,11 +1,13 @@
-import React from 'react'
-// import FilterInput from './FilterInput'
-// import Events from './Events'
+import React, {useState} from 'react'
+import FilterInput from '../../FilterInput'
+import EventList from '../../EventList'
+
+
 
 class Browse extends React.Component{
-  
+    
     state = {
-        eventsToDisplay: this.props.events,
+        EventsToDisplay: this.props.events,
         filterValue: ''
     }
 
@@ -25,11 +27,12 @@ class Browse extends React.Component{
         return (
             <div className='app'>
             <FilterInput value={this.state.filterValue} handleFilterChange={this.handleFilterChange} />
-            <EventList fruits={this.state.EventsToDisplay} />
+            <EventList events={this.state.EventsToDisplay} />
             </div>
         )
     }
 }
+
 
 
 export default Browse
