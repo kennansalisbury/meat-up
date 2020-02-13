@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import img from './method-draw-image.png' 
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 
 const NavBar = (props) => {
@@ -7,14 +8,15 @@ const NavBar = (props) => {
     const toggleNavbar = () => setCollapsed(!collapsed);
 
     return (
-            <Navbar color="faded" light>
-            <NavbarToggler onClick={toggleNavbar} className="mr-2" />
+
+            <Navbar className="navbar" color="faded" light>
+            <NavbarToggler onClick={toggleNavbar} className="mr-2 Menu" />
             {/* <Collapse isOpen={!collapsed} navbar>
             <Nav navbar>
             </Nav>
             </Collapse> */}
-            <NavbarBrand href="/" className="App">reactstrap</NavbarBrand>
-            
+            <NavbarBrand href="/" className="AppTitle ">Meat-Up</NavbarBrand>
+            <img src={img} className="profileImage"></img>
             </Navbar>
     );
   }
