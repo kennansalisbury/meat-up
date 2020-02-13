@@ -14,3 +14,18 @@
   padding: 30px;
   border-bottom: 1px solid gray;
 }
+
+.events {
+  list-style-type: none;
+  padding-left: 103px;
+  max-width: 500px;
+}
+
+.filter-input {
+  padding-left: 150px;
+  padding-top: 100px;
+}
+
+ul {
+  padding: 25px;
+}
