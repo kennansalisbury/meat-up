@@ -1,9 +1,9 @@
 import React from 'react'
-import FilterInput from './FilterInput'
-import EventList from './EventList'
+// import FilterInput from './FilterInput'
+// import Events from './Events'
 
 class Browse extends React.Component{
-
+  
     state = {
         eventsToDisplay = this.props.events,
         filterValue: ''
@@ -30,10 +30,6 @@ class Browse extends React.Component{
         )
     }
 }
-
-
-
-
 
 
 export default Browse
