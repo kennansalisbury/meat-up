@@ -1,4 +1,4 @@
-const event_data = {
+const Events = {
     "data": [
         {
             "title": "Sarah's D&D Group",
@@ -53,4 +53,4 @@ const event_data = {
         
             ]
 }
-export default event_data;
+export default Events;

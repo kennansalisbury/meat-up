@@ -6,6 +6,7 @@ import Home from './Pages/Home'
 import Confirmation from './Pages/Confirmation'
 import Details from './Pages/Details'
 import Signup from './Pages/Signup'
+import Events from './Data/Events'
 
 const Content = props => {
     return (
@@ -14,7 +15,7 @@ const Content = props => {
                 () => <Home/>
             }/>
             <Route path='/browse' render={
-                () => <Browse/>
+                () => <Browse events={Events.data}/>
             }/>
             <Route path='/confirmation' render={
                 () => <Confirmation/>
