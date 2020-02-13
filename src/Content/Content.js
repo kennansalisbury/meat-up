@@ -12,7 +12,7 @@ const Content = props => {
     return (
         <div>
             <Route exact path='/' render={
-                () => <Home events={Events.data}/>
+                () => <Home events={Events.data} nearEvents={Events.near_you} categories={Events.categories}/>
             }/>
             <Route path='/browse' render={
                 () => <Browse events={Events.data}/>

@@ -11,8 +11,8 @@
 }
 
 .home-jumbotron {
-  padding: 30px;
-  border-bottom: 1px solid gray;
+  padding: 10px;
+  font-family: 'Luminari';
 }
 
 .events {
@@ -28,4 +28,42 @@
 
 ul {
   padding: 25px;
+}
+
+.jumbotron {
+  background-image: url("http://cliparts.co/cliparts/8cz/6r8/8cz6r8Kcp.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+  height: 375px;
+}
+
+.link {
+  color: white;
+}
+
+.jumbotron-btn {
+  background: black;
+}
+
+.link:hover {
+  color: white;
+}
+
+h1,
+h2 {
+  font-family: 'Luminari';
+}
+
+.mb-50{
+  margin-bottom: 50px
+}
+
+.link-black {
+  color: black;
+}
+
+.link-black:hover {
+  color: black;
 }
