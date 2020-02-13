@@ -1,20 +1,23 @@
 import React from 'react';
-import {Container} from 'reactstrap'
-import './App.css';
+import './App.css'
+import { BrowserRouter as Router } from 'react-router-dom'
+
+import Content from './Content/Content'
+import Nav from './nav/Nav'
 
 function App() {
   return (
-    <Container>
+    <Router>
       <header>
-        STUB NAV
+        <Nav />
       </header>
       <main>
-        STUB MAIN PAGE CONTENT
+        <Content />
       </main>
       <footer>
         STUB FOOTER
       </footer>
-    </Container>
+    </Router>
   );
 }
 
