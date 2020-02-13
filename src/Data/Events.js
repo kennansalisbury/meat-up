@@ -1,7 +1,7 @@
-const event_data = {
+const Events = {
     "data": [
         {
-            "title": "Sarah's D&D Group",
+            "title": "Sarah's D&D Group 1",
             "date" : "MONDAY, NOV 25",
             "loc": "Seattle, WA",
             "attendies": 10,
@@ -11,7 +11,7 @@ const event_data = {
             "time": "6pm - 10pm"
         },
         {
-            "title": "Sarah's D&D Group",
+            "title": "Sarah's D&D Group 2",
             "date" : "MONDAY, NOV 25",
             "loc": "Seattle, WA",
             "attendies": 10,
@@ -21,7 +21,7 @@ const event_data = {
             "time": "6pm - 10pm"
         },
         {
-            "title": "Sarah's D&D Group",
+            "title": "Sarah's D&D Group 3",
             "date" : "MONDAY, NOV 25",
             "loc": "Seattle, WA",
             "attendies": 10,
@@ -31,7 +31,7 @@ const event_data = {
             "time": "6pm - 10pm"
         },
         {
-            "title": "Sarah's D&D Group",
+            "title": "Sarah's D&D Group 4",
             "date" : "MONDAY, NOV 25",
             "loc": "Seattle, WA",
             "attendies": 10,
@@ -41,7 +41,7 @@ const event_data = {
             "time": "6pm - 10pm"
         },
         {
-            "title": "Sarah's D&D Group",
+            "title": "Sarah's D&D Group 5",
             "date" : "MONDAY, NOV 25",
             "loc": "Seattle, WA",
             "attendies": 10,
@@ -53,4 +53,4 @@ const event_data = {
         
             ]
 }
-export default event_data;
+export default Events;
