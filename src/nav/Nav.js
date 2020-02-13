@@ -3,7 +3,8 @@ import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } f
 function NavBar() {
     // Declare a new state variable, which we'll call "count"
     const [collapsed, setCollapsed] = useState(true);
-  
+    const toggleNavbar = () => setCollapsed(!collapsed);
+
     return (
          <div>
             

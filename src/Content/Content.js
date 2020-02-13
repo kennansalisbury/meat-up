@@ -14,7 +14,7 @@ const Content = props => {
                 () => <Home/>
             }/>
             <Route path='/browse' render={
-                () => <Browse/>
+                () => <Browse />
             }/>
             <Route path='/confirmation' render={
                 () => <Confirmation/>
@@ -25,8 +25,6 @@ const Content = props => {
             <Route path='/signup' render={
                 () => <Signup/>
             }/>
-
-
         </div>
     )
 }

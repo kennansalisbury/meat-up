@@ -5,7 +5,7 @@ import React from 'react'
 class Browse extends React.Component{
   
     state = {
-        eventsToDisplay = this.props.events,
+        eventsToDisplay: this.props.events,
         filterValue: ''
     }
 
