@@ -3,6 +3,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100vw;
+  min-height: 900px;
 }
 
 .App-header {
@@ -89,13 +91,6 @@ h5 {
   font-family: 'Luminari';
   width: 40vw;
   margin: 0 auto;
-}
-
-.browse {
-  background-image: url('./static/img/scroll3.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .sbs-btn {

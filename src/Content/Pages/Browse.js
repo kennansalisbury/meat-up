@@ -29,7 +29,7 @@ class Browse extends React.Component{
         render () {
             return (
 
-               <div className='browse'>
+      
                <Container>
                     <Jumbotron className="jumbotron-main" sm="12"></Jumbotron>
                     <Row>
@@ -39,7 +39,6 @@ class Browse extends React.Component{
                         </Col>
                         <Col>
                             <img src={calendar} alt="calendar"/>
-
                         </Col>
                     </Row>
                     <Row>
@@ -47,7 +46,7 @@ class Browse extends React.Component{
                     </Row>
                     
                 </Container>
-            </div>
+     
             )
     }
 }
