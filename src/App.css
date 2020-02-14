@@ -22,7 +22,7 @@
 
 .filter-input {
   padding-left: 150px;
-  padding-top: 100px;
+  padding-top: 0px;
 }
 
 ul {
@@ -37,6 +37,7 @@ ul {
   background-color: white;
   height: 375px;
   cursor: url("https://img.icons8.com/color/48/000000/fantasy.png"), auto;
+  margin-bottom: 0;
 }
 
 .link {

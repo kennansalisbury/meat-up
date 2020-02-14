@@ -1,13 +1,15 @@
-import React, {useState} from 'react'
+import React from 'react'
 import FilterInput from '../../FilterInput'
 import EventList from '../../EventList'
-
+import {Container, Row, Col, Jumbotron} from 'reactstrap'
+import calendar from '../../static/img/calendar2.png'
 
 
 class Browse extends React.Component{
     
     state = {
         EventsToDisplay: this.props.events,
+        // EventsToDisplay: '',
         filterValue: ''
     }
 
@@ -19,18 +21,31 @@ class Browse extends React.Component{
                 event.title.toLowerCase().includes(filterValue.toLowerCase()))
                 return {
                     EventsToDisplay: filteredEvents,
-                    filterValue
+                    filterValue,
                 }
             })
         }
 
         render () {
             return (
-            <div className='app'>
-                <FilterInput value={this.state.filterValue} handleFilterChange={this.handleFilterChange} />
-                <EventList events={this.state.EventsToDisplay} />
-            </div>
-        )
+                <Container>
+                    <Jumbotron className="jumbotron-main" sm="12"></Jumbotron>
+                    <Row>
+                        <Col>
+                            <FilterInput value={this.state.filterValue} handleFilterChange={this.handleFilterChange} />
+                            
+                        </Col>
+                        <Col>
+                            <img src={calendar} alt="calendar"/>
+
+                        </Col>
+                    </Row>
+                    <Row>
+                        <EventList events={this.state.EventsToDisplay} />
+                    </Row>
+                    
+                </Container>
+            )
     }
 }
 
