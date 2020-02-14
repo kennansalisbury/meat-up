@@ -55,7 +55,7 @@ const Details = props => {
                         <li>A canvas bag (all meat purchased will not be pre-packaged)</li>
                         <li>Money to buy and barter exotic meat</li>
                     </ul>
-                    <Button><Link to="/confirmation">Attend This Event</Link></Button>
+                    <Link to="/confirmation"><Button>Attend This Event</Button></Link>
                     
                 </div>
             </div>
