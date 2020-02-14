@@ -6,6 +6,7 @@ import {Link} from 'react-router-dom'
 const Confirmation = props => {
     return (
         <Container className="mt">
+            {/* birds */}
             <div class="bird-container bird-container--one">
                 <div class="bird bird--one"></div>
             </div>

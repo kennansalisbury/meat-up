@@ -116,6 +116,7 @@ main{
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.4s;
 }
+/* Birds */
 .bird-container {
   position: absolute;
   top: 10%;
