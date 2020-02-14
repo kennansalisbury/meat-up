@@ -62,10 +62,15 @@ main {
 }
 .wider {
   width: 45vw;
+  background: rgba(0,0,0, .2);
 }
 
 p{
   font-size: 20px;
+}
+
+.ml {
+  margin-left: 7vw;
 }
 
 .feature {

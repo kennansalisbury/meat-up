@@ -31,12 +31,14 @@ class Browse extends React.Component{
             <div className="browse">
                 <div className="browse-background"></div>
                     <Row>
-                        <Col sm="6" align="center">
+                        <Col sm="1"></Col>
+                        <Col align="left">
                             <FilterInput value={this.state.filterValue} handleFilterChange={this.handleFilterChange} />
                             <div className="feature" sm="6"></div>
                             <br/>
                             <br/>
-                            <h3>Events</h3>
+                            <div className="ml"><h3>Events</h3></div>
+                            
                             <EventList events={this.state.EventsToDisplay} />
                         </Col>
                         {/* <Col sm="2">

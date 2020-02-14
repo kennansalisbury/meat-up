@@ -31,7 +31,7 @@ const Confirmation = props => {
             <Row>
 
                 <Col sm="6">
-                    <p>Thank you for registering: </p>
+                    <h3>Thank you for registering: </h3>
                     <Row>
                         <Col sm="2">
                             <img src="https://img.icons8.com/color/48/000000/jamon.png" alt="turkey-leg"/>
@@ -40,7 +40,7 @@ const Confirmation = props => {
                             <h2>{props.user.name}</h2>
                         </Col>
                     </Row>
-                    <p>Your confirmation and ticket to enter the event will arrive to your clan via Raven within the next few days. Bring the Raven and your ticket to the event as proof of registration.</p>
+                    <p><strong>Your confirmation and ticket to enter the event will arrive to your clan via Raven within the next few days. Bring the Raven and your ticket to the event as proof of registration.</strong></p>
                 </Col>
                 <Col sm="1"></Col>
                 <Col>
