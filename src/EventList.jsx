@@ -14,7 +14,7 @@ const EventList = props => {
             <div >
                 <Col>
                 <Card key={i}>
-                    <CardImg top width="100%" src="https://placeimg.com/200/200/any" alt="Card image cap" />
+                    {/* <CardImg top width="100%" src="https://placeimg.com/200/200/any" alt="Card image cap" /> */}
                     <CardBody>
                     <CardTitle>{e.title}</CardTitle>
                     {/* <CardSubtitle>Card subtitle</CardSubtitle>

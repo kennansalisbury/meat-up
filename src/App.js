@@ -20,6 +20,7 @@ function App() {
         <Footer />
       </footer> */}
     </Router>
+    </div>
   );
 }
 
