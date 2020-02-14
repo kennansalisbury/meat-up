@@ -36,8 +36,8 @@ const Signup = props => {
                         <option>4</option>
                         <option>5</option>
                     </Input>
-                    <Button><Link to="Confirmation">Submit</Link></Button>
                 </FormGroup>
+                <Button><Link className="link" to="/confirmation">Submit</Link></Button>
             </Form>
 
         </Container>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Route } from 'react-router-dom'
 import Events from '../Data/Events'
+import User from '../Data/User'
 
 import Browse from './Pages/Browse'
 import Home from './Pages/Home'
@@ -18,7 +19,7 @@ const Content = props => {
                 () => <Browse events={Events.data}/>
             }/>
             <Route path='/confirmation' render={
-                () => <Confirmation/>
+                () => <Confirmation user={User.data}/>
             }/>
             <Route path='/details' render={
                 () => <Details events={Events.data}/>

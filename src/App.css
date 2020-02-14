@@ -67,3 +67,7 @@ h2 {
 .link-black:hover {
   color: black;
 }
+
+.sbs-btn {
+  margin: 10px;
+}
