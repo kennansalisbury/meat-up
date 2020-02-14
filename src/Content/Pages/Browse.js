@@ -9,7 +9,6 @@ class Browse extends React.Component{
     
     state = {
         EventsToDisplay: this.props.events,
-        // EventsToDisplay: '',
         filterValue: ''
     }
 

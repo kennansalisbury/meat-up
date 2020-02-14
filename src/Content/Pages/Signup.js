@@ -99,7 +99,7 @@ const Signup = props => {
                     </Col>
                 </Row>
                 <Row>
-                    <Button><Link className="link" to="/confirmation">Submit</Link></Button>
+                    <Link className="link" to="/confirmation"><Button>Submit</Button></Link>
                 </Row>
             </Form>
 
