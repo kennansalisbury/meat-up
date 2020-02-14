@@ -38,13 +38,14 @@ const Directions = props => {
             <Container className="mt">
                 <h1>Directions</h1>
                 <h2>(Brought to you by MeatQuest)</h2>
+                <hr></hr>
                 <Row>
                     <Col></Col>
                     <Col sm="6">
-                    <Button color="warning" onClick={() => setButtons(setWalk)}>Walk</Button>
-                    <Button onClick={() => setButtons(setBike) }>Bike</Button>
-                    <Button onClick={() => setButtons(setCar) }>Car</Button>
-                    <Button onClick={() => setButtons(setBus)}>Bus</Button>
+                    <Button color="warning" onClick={() => setButtons(setWalk)}>By Foot</Button>
+                    <Button onClick={() => setButtons(setBike) }>Horse</Button>
+                    <Button onClick={() => setButtons(setCar) }>Ship</Button>
+                    <Button onClick={() => setButtons(setBus)}>Caravan</Button>
                     <br/>
                     <br/>
                     <h2>Arrive by: 239 days from today</h2>
@@ -66,13 +67,14 @@ const Directions = props => {
             <Container className="mt">
                 <h1>Directions</h1>
                 <h2>(Brought to you by MeatQuest)</h2>
+                <hr></hr>
                 <Row>
                     <Col></Col>
                     <Col sm="6">
-                    <Button onClick={() => setButtons(setWalk) }>Walk</Button>
-                    <Button color="warning" onClick={() => setButtons(setBike) }>Bike</Button>
-                    <Button onClick={() => setButtons(setCar) }>Car</Button>
-                    <Button onClick={() => setButtons(setBus) }>Bus</Button>
+                    <Button className="sbs-btn" onClick={() => setButtons(setWalk) }>By Foot</Button>
+                    <Button className="sbs-btn" color="warning" onClick={() => setButtons(setBike) }>Horse</Button>
+                    <Button className="sbs-btn" onClick={() => setButtons(setCar) }>Ship</Button>
+                    <Button className="sbs-btn" onClick={() => setButtons(setBus) }>Caravan</Button>
                     <br/>
                     <br/>
                     <h2>Arrive by: 175 days from today</h2>
@@ -95,13 +97,14 @@ const Directions = props => {
             <Container className="mt">
                 <h1>Directions</h1>
                 <h2>(Brought to you by MeatQuest)</h2>
+                <hr></hr>
                 <Row>
                     <Col></Col>
                     <Col sm="6">
-                    <Button onClick={() => setButtons(setWalk) }>Walk</Button>
-                    <Button onClick={() => setButtons(setBike) }>Bike</Button>
-                    <Button color="warning" onClick={() => setButtons(setCar) }>Car</Button>
-                    <Button onClick={() => setButtons(setBus) }>Bus</Button>
+                    <Button className="sbs-btn" onClick={() => setButtons(setWalk) }>By Foot</Button>
+                    <Button className="sbs-btn" onClick={() => setButtons(setBike) }>Horse</Button>
+                    <Button color="warning" className="sbs-btn" onClick={() => setButtons(setCar) }>Ship</Button>
+                    <Button className="sbs-btn" onClick={() => setButtons(setBus) }>Caravan</Button>
                     <br/>
                     <br/>
                     <h2>Arrive by: 99 days from today</h2>
@@ -123,13 +126,14 @@ const Directions = props => {
             <Container className="mt">
                 <h1>Directions</h1>
                 <h2>(Brought to you by MeatQuest)</h2>
+                <hr></hr>
                 <Row>
                     <Col></Col>
                     <Col sm="6">
-                    <Button onClick={() => setButtons(setWalk) }>Walk</Button>
-                    <Button onClick={() => setButtons(setBike) }>Bike</Button>
-                    <Button onClick={() => setButtons(setCar) }>Car</Button>
-                    <Button color="warning" onClick={() => setButtons(setBus) }>Bus</Button>
+                    <Button className="sbs-btn" onClick={() => setButtons(setWalk) }>By Foot</Button>
+                    <Button className="sbs-btn" onClick={() => setButtons(setBike) }>Horse</Button>
+                    <Button className="sbs-btn" onClick={() => setButtons(setCar) }>Ship</Button>
+                    <Button color="warning" className="sbs-btn" onClick={() => setButtons(setBus) }>Caravan</Button>
                     <br/>
                     <br/>
                     <h2>Arrive by: 20 days from today</h2>
@@ -151,13 +155,14 @@ const Directions = props => {
             <Container className="mt">
                 <h1>Directions</h1>
                 <h2>(Brought to you by MeatQuest)</h2>
+                <hr></hr>
                 <Row>
                     <Col></Col>
                     <Col sm="6">
-                    <Button onClick={() => setButtons(setWalk) }>Walk</Button>
-                    <Button onClick={() => setButtons(setBike) }>Bike</Button>
-                    <Button onClick={() => setButtons(setCar) }>Car</Button>
-                    <Button onClick={() => setButtons(setBus) }>Bus</Button>
+                    <Button className="sbs-btn" onClick={() => setButtons(setWalk) }>By Foot</Button>
+                    <Button className="sbs-btn" onClick={() => setButtons(setBike) }>Horse</Button>
+                    <Button className="sbs-btn" onClick={() => setButtons(setCar) }>Ship</Button>
+                    <Button className="sbs-btn" onClick={() => setButtons(setBus) }>Caravan</Button>
                     <br/>
                     <br/>
                         <img width="100%" src="https://www.amdigital.co.uk/images/blog/content/blog-images/medieval-maps/4.PNG" alt="medieval-map"/>

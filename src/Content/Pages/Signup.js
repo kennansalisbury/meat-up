@@ -12,11 +12,11 @@ const Signup = props => {
 
     return (
         <Container className="mt">
-            <Jumbotron align="center">
+            {/* <Jumbotron align="center">
                 <h1>Meat-Up: Dragons</h1>
                 <h5>February 12th, Midday</h5>
                 <h5>Roskilde, Denmark</h5>
-            </Jumbotron>
+            </Jumbotron> */}
             <h2>Attendee Details</h2>
             <p>Please fill out the following information:</p>
             <Form>
@@ -52,12 +52,12 @@ const Signup = props => {
                             </Input>
                         </FormGroup>
                     </Col>
-                    <Col></Col>
+                    <Col sm="1"></Col>
                     
-                    <Col sm="5">
+                    <Col sm="4">
                         <FormGroup tag="fieldset" align="center">
                             <Row>
-                                <Label>Choose yer carnivoratar</Label>
+                                <Label><h2>Choose yer carnivoratar</h2></Label>
                             </Row>
                             <Row>
                                 <Col>
