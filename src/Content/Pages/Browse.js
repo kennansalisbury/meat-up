@@ -49,6 +49,7 @@ class Browse extends React.Component{
                     
                 </Container>
             </div>
+     
             )
     }
 }
