@@ -36,25 +36,25 @@ code {
   height: 30px;
   width: 30px;
   position: absolute;
-  right: 5%;
+  right: 13%;
 }
 
 .navbar-light .navbar-brand{
-  color: rgb(33, 33, 199)
+  color: #49230F
 }
 
 .navbar-light .navbar-toggler{
-  color: rgb(33, 33, 199)
+  color: #49230F
 }
 
 .AppTitle {
   font-family: 'Luminari';
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 .Menu {
   position: absolute;
-  left: 5%;
+  left: 13%;
 }
 
 main{
@@ -75,7 +75,7 @@ main{
     left: 0pt;
 
 }
- 
+
 /* Under this is the birds from http://www.iamramraj.com/flying-birds-css-animation-examples/ */
 
 .bird {
