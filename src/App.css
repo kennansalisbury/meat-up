@@ -29,28 +29,27 @@
 
 .filter-input {
   padding-left: 150px;
-  padding-top: 100px;
+  padding-top: 0px;
 }
 
 ul {
   padding: 25px;
 }
 
-.jumbotron {
+.jumbotron-main {
   background-image: url('./static/img/HomeHero.png');
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-color: white;
   height: 375px;
+  cursor: url("https://img.icons8.com/color/48/000000/fantasy.png"), auto;
+  margin-bottom: 0;
 }
 
 .link {
   color: white;
-}
-
-.jumbotron-btn {
-  background: black;
+  cursor: url("https://img.icons8.com/color/48/000000/fantasy.png"), auto;
 }
 
 .link:hover {
@@ -58,7 +57,10 @@ ul {
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4,
+h5 {
   font-family: 'Luminari';
 }
 
@@ -68,6 +70,7 @@ h2 {
 
 .link-black {
   color: black;
+  cursor: url("https://img.icons8.com/color/48/000000/fantasy.png"), auto;
 }
 
 .link-black:hover {
@@ -95,10 +98,34 @@ h2 {
   background-size: cover;
 }
 
+.sbs-btn {
+  margin: 10px;
+}
 
+.mt {
+  margin-top: 30px;
+}
 
+.card-img {
+  height: 145px;
+}
 
+.magic-enter {
+  opacity: 0.01;
+}
 
+.magic-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 1000ms, transform 1000ms;
+}
 
+.magic-leave {
+  opacity: 1;
+}
 
+.magic-leave-active {
+  opacity: 0.01;
+  transition: opacity 1000ms, transform 1000ms;
 
+}

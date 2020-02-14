@@ -15,7 +15,7 @@ const Event = props => {
                     <CardTitle>{props.event.title}</CardTitle>
                     {/* <CardSubtitle>Card subtitle</CardSubtitle>
                     <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText> */}
-                    <Button size="sm">View</Button>
+                    <Button className="link" size="sm">View</Button>
                     </CardBody>
                 </Card>
             </Col>
