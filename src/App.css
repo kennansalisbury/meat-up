@@ -1,3 +1,10 @@
+.App {
+  background-image: url('./static/img/scroll3.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,7 +29,7 @@
 
 .filter-input {
   padding-left: 150px;
-  padding-top: 100px;
+  padding-top: 0px;
 }
 
 ul {
@@ -37,6 +44,7 @@ ul {
   background-color: white;
   height: 375px;
   cursor: url("https://img.icons8.com/color/48/000000/fantasy.png"), auto;
+  margin-bottom: 0;
 }
 
 .link {
@@ -67,6 +75,27 @@ h5 {
 
 .link-black:hover {
   color: black;
+}
+
+.details {
+  font-family: 'Luminari';
+  width: 40vw;
+  padding-top: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.event-details {
+  font-family: 'Luminari';
+  width: 40vw;
+  margin: 0 auto;
+}
+
+.browse {
+  background-image: url('./static/img/scroll3.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .sbs-btn {

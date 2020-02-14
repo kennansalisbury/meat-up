@@ -8,7 +8,13 @@ const Events = {
             "id": "i74kjh832",
             "desc": "Instead of going to a lame Destiny discussion come immerse yourself in the fantastical world building of Sarah King. New players and veterans are welcome!",
             "host": "Sarah King",
-            "time": "6pm - 10pm"
+            "time": "6pm - 10pm",
+            "things": [
+                "Your confirmation Raven",
+                "Scroll & quill for taking notes",
+                "A canvas bag (all meat purchased whill not be pre-packaged)",
+                "Money to buy & barter dragon meat"
+            ]
         },
         {
             "title": "Sarahs D and D Group Two",

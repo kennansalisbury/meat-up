@@ -9,6 +9,7 @@ import Confirmation from './Pages/Confirmation'
 import Details from './Pages/Details'
 import Signup from './Pages/Signup'
 import Directions from './Pages/Directions'
+import Profile from './Pages/Profile'
 
 const Content = props => {
     return (
@@ -30,6 +31,9 @@ const Content = props => {
             }/>
             <Route path='/directions/389sfdlku79098' render={
                 () => <Directions/>
+            }/>
+            <Route path='/profile/49ckds9090' render={
+                () => <Profile user={User.data}/>
             }/>
         </div>
     )
