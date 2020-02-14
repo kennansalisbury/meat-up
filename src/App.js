@@ -16,9 +16,9 @@ function App() {
         <main>
           <Content />
       </main>
-      <footer className="footer">
+      {/* <footer className="footer">
         <Footer />
-      </footer>
+      </footer> */}
     </Router>
     </div>
   );
