@@ -13,7 +13,7 @@ import Profile from './Pages/Profile'
 
 const Content = props => {
     return (
-        <div>
+        <div className="content">
             <Route exact path='/' render={
                 () => <Home events={Events.data} nearEvents={Events.near_you} categories={Events.categories}/>
             }/>
