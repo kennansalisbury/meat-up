@@ -93,6 +93,11 @@ h5 {
   margin: 0 auto;
 }
 
+.browse {
+  height: 100vh;
+  width: 100vw;
+}
+
 .sbs-btn {
   margin: 10px;
 }
@@ -122,5 +127,6 @@ h5 {
 .magic-leave-active {
   opacity: 0.01;
   transition: opacity 1000ms, transform 1000ms;
-
 }
+
+
