@@ -39,26 +39,36 @@ const Details = props => {
     //     var content = (<h1>{selectedEvent.title}</h1>)
     // }
     return (
-            <div>
-                <div className="details">
-                    <h1>{selectedEvent.title}</h1>
-                    <h5>{selectedEvent.date}</h5>
-                    <h5>{selectedEvent.loc}</h5>
+            
+                <div>
+                    <div className="details">
+                        <h1>{selectedEvent.title}</h1>
+                        <h5>{selectedEvent.date}</h5>
+                        <h5>{selectedEvent.loc}</h5>
+                    </div>
+                <Row>
+                <Col sm="5"></Col>
+                <Col >
+                    <img src={selectedEvent.image}/>
+                </Col>
+                <Col>
+                    <div className="event-details">
+                        <h3>Event Details</h3>
+                        <p>{selectedEvent.desc}</p>
+                        <h3>What to Bring</h3>
+                        <ul>
+                            <li>Your Confimation Raven</li>
+                            <li>Scroll and quill for notes</li>
+                            <li>A canvas bag (all meat purchased will not be pre-packaged)</li>
+                            <li>Money to buy and barter exotic meat</li>
+                        </ul>
+                        <Link to="/signup"><Button>Attend This Event</Button></Link>
+                        
+                    </div>
+                
+                    </Col>
+                </Row>
                 </div>
-                <div className="event-details">
-                    <h3>Event Details</h3>
-                    <p>{selectedEvent.desc}</p>
-                    <h3>What to Bring</h3>
-                    <ul>
-                        <li>Your Confimation Raven</li>
-                        <li>Scroll and quill for notes</li>
-                        <li>A canvas bag (all meat purchased will not be pre-packaged)</li>
-                        <li>Money to buy and barter exotic meat</li>
-                    </ul>
-                    <Link to="/confirmation"><Button>Attend This Event</Button></Link>
-                    
-                </div>
-            </div>
     )
 }
 
