@@ -16,7 +16,7 @@ const NavBar = (props) => {
             <Nav navbar>
             </Nav>
             </Collapse> */}
-            <NavbarBrand href="/" className="AppTitle ">Meat-Up</NavbarBrand>
+            <NavbarBrand href="/" className="AppTitle link">Meat-Up</NavbarBrand>
             <img src={img} className="profileImage"></img>
             </Navbar>
     );

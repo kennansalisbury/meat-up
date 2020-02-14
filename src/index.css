@@ -27,7 +27,7 @@ code {
   position: relative;
   width: 70%;
   margin: 0 auto;
-  border: 2px double black;
+  /* border: 2px double black; */
   /* background-color: grey; */
 }
 

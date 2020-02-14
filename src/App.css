@@ -1,8 +1,9 @@
 body {
   background-image: url('./static/img/scroll3.png');
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   min-width: 100%;
   min-height: 100%;
 }
@@ -56,8 +57,11 @@ main {
 
 .filter-input {
   margin-top: 5px;
-  padding-left: 150px;
+  margin-left: 6vw;
   padding-top: 0px;
+}
+.wider {
+  width: 45vw;
 }
 
 .feature {
@@ -67,12 +71,17 @@ main {
   background-position: center;
   height: 300px;
   width: 300px;
-  margin-left: 147px;
+  margin-left: 6vw;
   margin-top: 20px;
 }
 
 ul {
   padding: 25px;
+}
+
+.round-border {
+  border: 1px solid black;
+  border-radius: 8% ! important;
 }
 
 .home {
@@ -89,6 +98,22 @@ ul {
 .link {
   color: white;
   cursor: url("https://img.icons8.com/color/48/000000/fantasy.png"), auto;
+}
+
+.event-card {
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+}
+
+.text-btm {
+  position: absolute;
+  bottom: 0;
+}
+
+.bold {
+  font-family: 'Luminari';
+  font-weight: bold;
 }
 
 .card-link {

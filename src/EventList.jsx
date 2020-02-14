@@ -1,6 +1,6 @@
 import React from 'react';import { Col,
     Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Button
+    CardTitle, CardSubtitle, Button, Row
 } from 'reactstrap';
 import { Link } from 'react-router-dom'
 
@@ -12,18 +12,27 @@ const EventList = props => {
         content = props.events.map((e, i) => {
             return (
             <div >
-                <Col>
-                <Card key={i}>
+                {/* <Col> */}
+                <Card key={i} className="wider" align="left">
                     {/* <CardImg top width="100%" src="https://placeimg.com/200/200/any" alt="Card image cap" /> */}
                     <CardBody>
-                    <CardTitle>{e.title}</CardTitle>
-                    {/* <CardSubtitle>Card subtitle</CardSubtitle>
-                    <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText> */}
-                    <Button><Link className='link' to={`details/${e.id}`}>View More Info</Link></Button>
+                    <Row>
+                    <Col sm="3">     
+                        <CardImg src="https://placeimg.com/200/200/any" alt="Card image cap" />
+                    </Col>
+                    <Col> 
+                        <CardTitle><h2>{e.title}</h2></CardTitle>
+                        <CardText>{e.desc}</CardText>
+                    
+                        {/* <CardSubtitle>Card subtitle</CardSubtitle>
+                        <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText> */}
+                        <Button><Link className='link' to={`details/${e.id}`}>View More Info</Link></Button>
+                        </Col>
+                    </Row>
                     </CardBody>
                 </Card>
-                </Col>
-                <br />
+                {/* </Col> */}
+                <br/>
             </div>
             )
         })

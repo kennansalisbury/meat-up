@@ -26,13 +26,17 @@ class Browse extends React.Component{
         }
 
         render () {
+
             return (
             <div className="browse">
                 <div className="browse-background"></div>
                     <Row>
-                        <Col sm="6">
+                        <Col sm="6" align="center">
                             <FilterInput value={this.state.filterValue} handleFilterChange={this.handleFilterChange} />
                             <div className="feature" sm="6"></div>
+                            <br/>
+                            <br/>
+                            <h3>Events</h3>
                             <EventList events={this.state.EventsToDisplay} />
                         </Col>
                         {/* <Col sm="2">
