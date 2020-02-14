@@ -10,7 +10,8 @@ const NavBar = (props) => {
     return (
 
             <Navbar className="navbar" color="faded" light>
-            <NavbarToggler onClick={toggleNavbar} className="mr-2 Menu" />
+            {/* <NavbarToggler onClick={toggleNavbar} className="mr-2 Menu" /> */}
+            <img src="https://img.icons8.com/doodle/30/000000/menu.png" className="Menu"></img>
             {/* <Collapse isOpen={!collapsed} navbar>
             <Nav navbar>
             </Nav>
