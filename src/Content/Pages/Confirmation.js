@@ -43,7 +43,7 @@ const Confirmation = props => {
                 </Col>
             </Row>
             <Row>
-                <Button className="sbs-btn">Directions</Button>
+                <Button className="sbs-btn"><Link className="link" to="/directions/389sfdlku79098">Get Directions</Link></Button>
                 <Button className="sbs-btn"><Link className="link" to="/browse">Browse More Events</Link></Button>
             </Row>
             <Row className="mt">

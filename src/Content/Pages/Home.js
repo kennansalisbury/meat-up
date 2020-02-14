@@ -23,7 +23,7 @@ const Home = props => {
         <Container>
             <div className="home-jumbotron">
                 <Link to="/browse">
-                <Jumbotron className="jumbotron" sm="12"></Jumbotron>
+                <Jumbotron className="jumbotron-main" sm="12"></Jumbotron>
                 </Link>
             </div>
             <Row>
