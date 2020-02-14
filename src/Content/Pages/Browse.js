@@ -2,7 +2,7 @@ import React from 'react'
 import FilterInput from '../../FilterInput'
 import EventList from '../../EventList'
 import {Container, Row, Col, Jumbotron} from 'reactstrap'
-import Calendar from '../../static/img/Calendar.png'
+import Calendar from '../../static/img/calendar.png'
 
 
 class Browse extends React.Component{

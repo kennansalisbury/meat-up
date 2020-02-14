@@ -22,6 +22,7 @@ const EventList = props => {
                     </Col>
                     <Col> 
                         <CardTitle><h2>{e.title}</h2></CardTitle>
+                        <CardText>{e.date}</CardText>
                         <CardText>{e.desc}</CardText>
                     
                         {/* <CardSubtitle>Card subtitle</CardSubtitle>
