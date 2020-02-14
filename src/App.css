@@ -1,5 +1,3 @@
-
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -38,14 +36,12 @@ ul {
   background-repeat: no-repeat;
   background-color: white;
   height: 375px;
+  cursor: url("https://img.icons8.com/color/48/000000/fantasy.png"), auto;
 }
 
 .link {
   color: white;
-}
-
-.jumbotron-btn {
-  background: black;
+  cursor: url("https://img.icons8.com/color/48/000000/fantasy.png"), auto;
 }
 
 .link:hover {
@@ -63,6 +59,7 @@ h2 {
 
 .link-black {
   color: black;
+  cursor: url("https://img.icons8.com/color/48/000000/fantasy.png"), auto;
 }
 
 .link-black:hover {
@@ -75,4 +72,8 @@ h2 {
 
 .mt {
   margin-top: 30px;
+}
+
+.card-img {
+  height: 145px;
 }
