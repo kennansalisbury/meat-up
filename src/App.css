@@ -17,6 +17,10 @@ main {
   width: 70vw;
 }
 
+.btn-secondary, .btn, .btn-group-sm, button:not(:disabled)  {
+  cursor: url("https://img.icons8.com/color/48/000000/fantasy.png"), auto;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -64,8 +68,19 @@ ul {
   cursor: url("https://img.icons8.com/color/48/000000/fantasy.png"), auto;
 }
 
+.card-link {
+  cursor: url("https://img.icons8.com/color/48/000000/fantasy.png"), auto;
+  color: black;
+}
+
+.card-link:hover {
+  cursor: url("https://img.icons8.com/color/48/000000/fantasy.png"), auto;
+  color: black;
+}
+
 .link:hover {
   color: white;
+  text-decoration: none;
 }
 
 h1,
@@ -101,11 +116,6 @@ h5 {
   font-family: 'Luminari';
   width: 40vw;
   margin: 0 auto;
-}
-
-.browse {
-  height: 100vh;
-  width: 100vw;
 }
 
 .sbs-btn {

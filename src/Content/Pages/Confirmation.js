@@ -44,8 +44,8 @@ const Confirmation = props => {
                 </Col>
             </Row>
             <Row>
-                <Button className="sbs-btn"><Link className="link" to="/directions/389sfdlku79098">Get Directions</Link></Button>
-                <Button className="sbs-btn"><Link className="link" to="/browse">Browse More Events</Link></Button>
+                <Link className="link" to="/directions/389sfdlku79098"><Button className="sbs-btn">Get Directions</Button></Link>
+                <Link className="link" to="/browse"><Button className="sbs-btn">Browse More Events</Button></Link>
             </Row>
             <Row className="mt">
                 <Row>
