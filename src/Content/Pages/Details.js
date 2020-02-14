@@ -1,8 +1,10 @@
 import React from 'react'
 
 const Details = props => {
+    
+    console.log(props)
     return (
-        <div>Details Stub</div>
+        <div>{props.match.params.id}</div>
     )
 }
 

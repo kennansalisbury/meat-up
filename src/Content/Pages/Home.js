@@ -22,15 +22,17 @@ const Home = props => {
         <div className="home-page">
         <Container>
             <div className="home-jumbotron">
+                <Link to="/browse">
                 <Jumbotron className="jumbotron" sm="12">
-                    <Col align="center">
+                    {/* <Col align="center">
                         <br/>
                         <h1>The Meat Summons Ye</h1>
                         <br/>
-                        <br/>
+                        <br/>   
                         <Button className="jumbotron-btn"><Link className="link" to="/browse">Browse Events</Link></Button>
-                    </Col>
+                    </Col> */}
                 </Jumbotron>
+                </Link>
             </div>
             <Row>
                 <Col sm="6">

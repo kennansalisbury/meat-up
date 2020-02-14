@@ -31,7 +31,7 @@ ul {
 }
 
 .jumbotron {
-  background-image: url("http://cliparts.co/cliparts/8cz/6r8/8cz6r8Kcp.png");
+  background-image: url('./static/img/HomeHero.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
