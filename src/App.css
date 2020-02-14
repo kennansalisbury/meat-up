@@ -33,7 +33,7 @@ ul {
 .jumbotron {
   background-image: url('./static/img/HomeHero.png');
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-color: white;
   height: 375px;
