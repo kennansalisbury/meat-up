@@ -75,6 +75,7 @@ main{
     left: 0pt;
 
 }
+ 
 /* Under this is the birds from http://www.iamramraj.com/flying-birds-css-animation-examples/ */
 
 .bird {
@@ -124,7 +125,6 @@ main{
 .bird-container {
   position: absolute;
   top: 10%;
-  left: -7.5vw;
   -webkit-transform: scale(0);
   transform: scale(0);
   will-change: transform;
