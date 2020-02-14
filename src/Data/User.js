@@ -1,7 +1,7 @@
 const User = {
     "data": 
         {
-            "name": "Ivar",
+            "name": "Astrid",
             "clan" : "Völsung",
             "party_size": "1",
             "id": "i82lmk903",
