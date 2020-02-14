@@ -34,7 +34,7 @@ const Events = {
             "loc": "Pacific Ocean",
             "attendies": 13,
             "id": "3",
-            "desc": "The Kracken has been destroying the fleet.  It's time to hunt and finish the Kracken once and for all.",
+            "desc": "Cooking with Kracken! The Kracken has been destroying the fleet.  It's time to hunt and finish the Kracken once and for all.",
             "host": "Christopher Columbus",
             "image": "https://i.imgur.com/fVepyr7.png",
             "time": "6pm - 10pm"
@@ -45,7 +45,7 @@ const Events = {
             "loc": "Hungary",
             "attendies": 4,
             "id": "4",
-            "desc": "Journey to Hungary and hunt some Hungarian horntail dragons.",
+            "desc": "Hungary Hungary Horntail Dragons! Journey to Hungary and hunt some Hungarian horntail dragons.",
             "host": "Bob Bobbington",
             "image": "https://i.imgur.com/vqTZHoi.png",
             "time": "6pm - 10pm"

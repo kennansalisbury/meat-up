@@ -56,9 +56,8 @@ const Directions = props => {
                     <br/>
                     <h2>Yer Walking Directions:</h2>
                     <h2>1. Walk</h2>
-                    <h2>2. Walk</h2>
-                    <h2>3. Etc. for 239 days</h2>
-                    <h2>Don't forget your money for the Troll Bridge</h2>
+                    <h2>2. For 239 days</h2>
+                    <h2>3. Don't forget your money for the Troll Bridge </h2>
                     <Link className="link" to="/browse"><Button className="sbs-btn">Browse More Events</Button></Link>
                     </Col>
                     <Col></Col>
@@ -89,8 +88,7 @@ const Directions = props => {
                     <h2>Directions by Horseback:</h2>
                     <h2>1. Follow the trail through the dark woods.</h2>
                     <h2>2. Take a left at the tree of the old gods.</h2>
-                    <h2>3. Etc.</h2>
-                    <h2>Try not to eat your horse before you get to the event.</h2>
+                    <h2>3. Try not to eat your horse before you get to the event.</h2>
                     <Link className="link" to="/browse"><Button className="sbs-btn">Browse More Events</Button></Link>
                     </Col>
                     <Col></Col>
@@ -121,9 +119,8 @@ const Directions = props => {
                     <br/>
                     <h2>Yer Boating Directions:</h2>
                     <h2>1. Take the stormy seas</h2>
-                    <h2>2. Plunder ship passing by</h2>
-                    <h2>3. Etc.</h2>
-                    <h2>Grab some cracken meat on the way if ye dare!</h2>
+                    <h2>2. Plunder ships passing by</h2>
+                    <h2>3. Grab some Kracken meat on the way if ye dare!</h2>
                     <Link className="link" to="/browse"><Button className="sbs-btn">Browse More Events</Button></Link>
                     </Col>
                     <Col></Col>
@@ -154,8 +151,7 @@ const Directions = props => {
                     <h2>Yer Caravan Directions:</h2>
                     <h2>1. Gather yer clan</h2>
                     <h2>2. Wave yer flags</h2>
-                    <h2>3. Etc.</h2>
-                    <h2>Don't let the sick ones delay yer travel! </h2>
+                    <h2>3. Don't let the sick ones delay yer travel!</h2>
                     <Link className="link" to="/browse"><Button className="sbs-btn">Browse More Events</Button></Link>
                     </Col>
                     <Col></Col>
