@@ -8,7 +8,8 @@ const NavBar = (props) => {
     const toggleNavbar = () => setCollapsed(!collapsed);
 
     return (
-
+            <div>
+              <br/>
             <Navbar className="navbar" color="faded" light>
             {/* <NavbarToggler onClick={toggleNavbar} className="mr-2 Menu" /> */}
             <img src="https://img.icons8.com/doodle/30/000000/menu.png" className="Menu"></img>
@@ -19,6 +20,7 @@ const NavBar = (props) => {
             <NavbarBrand href="/" className="AppTitle link">Meat-Up</NavbarBrand>
             <img src={img} className="profileImage"></img>
             </Navbar>
+            </div>
     );
   }
 
