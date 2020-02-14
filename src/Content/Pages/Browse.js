@@ -46,7 +46,9 @@ class Browse extends React.Component{
                             <img className="calendar" src={calendar} alt="calendar"/>
                         </Col>
                     </Row> 
+                    <hr/>
             </div>
+           
             )
     }
 }

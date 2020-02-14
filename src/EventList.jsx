@@ -18,7 +18,7 @@ const EventList = props => {
                     <CardBody>
                     <Row>
                     <Col sm="3">     
-                        <CardImg src="https://placeimg.com/200/200/any" alt="Card image cap" />
+                        <CardImg src={e.image} alt="Card image cap" />
                     </Col>
                     <Col> 
                         <CardTitle><h2>{e.title}</h2></CardTitle>

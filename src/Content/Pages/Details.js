@@ -79,16 +79,20 @@ const Details = props => {
                     <br/>
                     <br/>
                 <Row>
-                <Col sm="1"></Col>
+                {/* <Col sm="1"></Col> */}
                 <Col >
-                    <br/>
-                    <br/>
-                    <img src={selectedEvent.image}/>
+                    {/* <br/>
+                    <br/> */}
+                    <img src={selectedEvent.image} height="300px"/>
                 </Col>
                 <Col>
                     <div className="event-details">
                         <h3>Event Details</h3>
+                        <br/>
+
                         <p>{selectedEvent.desc}</p>
+
+                        <br/>
                         <h3>What to Bring</h3>
                         <ul>
                             <li>Your Confimation Raven</li>

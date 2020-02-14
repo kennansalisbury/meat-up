@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import {Container, Row, Col, Button} from 'reactstrap'
+import {Link} from 'react-router-dom'
 
 const Directions = props => {
 
@@ -42,20 +43,23 @@ const Directions = props => {
                 <Row>
                     <Col></Col>
                     <Col sm="6">
-                    <Button color="warning" onClick={() => setButtons(setWalk)}>By Foot</Button>
-                    <Button onClick={() => setButtons(setBike) }>Horse</Button>
-                    <Button onClick={() => setButtons(setCar) }>Ship</Button>
-                    <Button onClick={() => setButtons(setBus)}>Caravan</Button>
+                    <Button className="sbs-btn" color="warning" onClick={() => setButtons(setWalk)}>By Foot</Button>
+                    <Button className="sbs-btn" onClick={() => setButtons(setBike) }>Horse</Button>
+                    <Button className="sbs-btn" onClick={() => setButtons(setCar) }>Ship</Button>
+                    <Button className="sbs-btn" onClick={() => setButtons(setBus)}>Caravan</Button>
                     <br/>
                     <br/>
                     <h2>Arrive by: 239 days from today</h2>
 
                     <img width="100%" src="https://www.amdigital.co.uk/images/blog/content/blog-images/medieval-maps/4.PNG" alt="medieval-map"/>
                     <br/>
+                    <br/>
                     <h2>Yer Walking Directions:</h2>
                     <h2>1. Walk</h2>
                     <h2>2. Walk</h2>
-                    <h2>3. Etc.</h2>
+                    <h2>3. Etc. for 239 days</h2>
+                    <h2>Don't forget your money for the Troll Bridge</h2>
+                    <Link className="link" to="/browse"><Button className="sbs-btn">Browse More Events</Button></Link>
                     </Col>
                     <Col></Col>
                 </Row>
@@ -81,10 +85,13 @@ const Directions = props => {
 
                     <img width="100%" src="https://www.amdigital.co.uk/images/blog/content/blog-images/medieval-maps/4.PNG" alt="medieval-map"/>
                     <br/>
-                    <h2>Yer Walking Directions:</h2>
-                    <h2>1. Walk</h2>
-                    <h2>2. Walk</h2>
+                    <br/>
+                    <h2>Directions by Horseback:</h2>
+                    <h2>1. Follow the trail through the dark woods.</h2>
+                    <h2>2. Take a left at the tree of the old gods.</h2>
                     <h2>3. Etc.</h2>
+                    <h2>Try not to eat your horse before you get to the event.</h2>
+                    <Link className="link" to="/browse"><Button className="sbs-btn">Browse More Events</Button></Link>
                     </Col>
                     <Col></Col>
                 </Row>
@@ -111,10 +118,13 @@ const Directions = props => {
 
                     <img width="100%" src="https://www.amdigital.co.uk/images/blog/content/blog-images/medieval-maps/4.PNG" alt="medieval-map"/>
                     <br/>
-                    <h2>Yer Walking Directions:</h2>
-                    <h2>1. Walk</h2>
-                    <h2>2. Walk</h2>
+                    <br/>
+                    <h2>Yer Boating Directions:</h2>
+                    <h2>1. Take the stormy seas</h2>
+                    <h2>2. Plunder ship passing by</h2>
                     <h2>3. Etc.</h2>
+                    <h2>Grab some cracken meat on the way if ye dare!</h2>
+                    <Link className="link" to="/browse"><Button className="sbs-btn">Browse More Events</Button></Link>
                     </Col>
                     <Col></Col>
                 </Row>
@@ -136,14 +146,17 @@ const Directions = props => {
                     <Button color="warning" className="sbs-btn" onClick={() => setButtons(setBus) }>Caravan</Button>
                     <br/>
                     <br/>
-                    <h2>Arrive by: 20 days from today</h2>
+                    <h2>Arrive by: 400 days from today</h2>
 
                     <img width="100%" src="https://www.amdigital.co.uk/images/blog/content/blog-images/medieval-maps/4.PNG" alt="medieval-map"/>
                     <br/>
-                    <h2>Yer Walking Directions:</h2>
-                    <h2>1. Walk</h2>
-                    <h2>2. Walk</h2>
+                    <br/>
+                    <h2>Yer Caravan Directions:</h2>
+                    <h2>1. Gather yer clan</h2>
+                    <h2>2. Wave yer flags</h2>
                     <h2>3. Etc.</h2>
+                    <h2>Don't let the sick ones delay yer travel! </h2>
+                    <Link className="link" to="/browse"><Button className="sbs-btn">Browse More Events</Button></Link>
                     </Col>
                     <Col></Col>
                 </Row>
@@ -166,6 +179,7 @@ const Directions = props => {
                     <br/>
                     <br/>
                         <img width="100%" src="https://www.amdigital.co.uk/images/blog/content/blog-images/medieval-maps/4.PNG" alt="medieval-map"/>
+                        <Link className="link" to="/browse"><Button className="sbs-btn">Browse More Events</Button></Link>
                     </Col>
                     <Col></Col>
                 </Row>
