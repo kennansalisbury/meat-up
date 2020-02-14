@@ -1,4 +1,5 @@
 
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -70,4 +71,8 @@ h2 {
 
 .sbs-btn {
   margin: 10px;
+}
+
+.mt {
+  margin-top: 30px;
 }

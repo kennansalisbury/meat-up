@@ -3,6 +3,7 @@ import './App.css'
 import { BrowserRouter as Router } from 'react-router-dom'
 import Content from './Content/Content'
 import NavBar from './nav/Nav'
+import {Container} from 'reactstrap'
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         <NavBar />
       </header>
       <main>
-        <Content />
+          <Content />
       </main>
       <footer>
         STUB FOOTER
