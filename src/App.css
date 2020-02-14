@@ -67,3 +67,15 @@ h2 {
 .link-black:hover {
   color: black;
 }
+
+.event-details {
+  font-family: 'Luminari';
+  width: 40vw;
+  margin: 0 auto;
+}
+
+.details-jumbotron {
+  font-family: 'Luminari';
+  width: 50vw;
+  margin: 0 auto;
+}
