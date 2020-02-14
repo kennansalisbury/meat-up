@@ -3,6 +3,7 @@ import FilterInput from '../../FilterInput'
 import EventList from '../../EventList'
 import {Container, Row, Col, Jumbotron} from 'reactstrap'
 import Calendar from '../../static/img/Calendar.png'
+import {Link} from 'react-router-dom'
 
 
 class Browse extends React.Component{
@@ -34,7 +35,7 @@ class Browse extends React.Component{
                         <Col sm="1"></Col>
                         <Col align="left">
                             <FilterInput value={this.state.filterValue} handleFilterChange={this.handleFilterChange} />
-                            <div className="feature" sm="6"></div>
+                            <Link to="/details/16"><div className="feature" sm="6"></div></Link>
                             <br/>
                             <br/>
                             <div className="ml"><h3>Events</h3></div>
@@ -50,7 +51,6 @@ class Browse extends React.Component{
                     </Row> 
                     <hr/>
             </div>
-           
             )
     }
 }
