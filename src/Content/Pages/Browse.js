@@ -2,7 +2,7 @@ import React from 'react'
 import FilterInput from '../../FilterInput'
 import EventList from '../../EventList'
 import {Container, Row, Col, Jumbotron} from 'reactstrap'
-import calendar from '../../static/img/calendar2.png'
+import Calendar from '../../static/img/Calendar.png'
 
 
 class Browse extends React.Component{
@@ -45,7 +45,7 @@ class Browse extends React.Component{
 
                         </Col> */}
                         <Col sm="6">
-                            <img className="calendar" src={calendar} alt="calendar"/>
+                            <img className="calendar" src={Calendar} alt="calendar"/>
                         </Col>
                     </Row> 
                     <hr/>
