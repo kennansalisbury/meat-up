@@ -28,28 +28,22 @@ class Browse extends React.Component{
 
         render () {
             return (
-            <div className='browse'>
-            <Container>
-                    <Jumbotron className="jumbotron-main" sm="12"></Jumbotron>
+            <div className="browse">
+                <div className="browse-background"></div>
                     <Row>
                         <Col sm="6">
                             <FilterInput value={this.state.filterValue} handleFilterChange={this.handleFilterChange} />
+                            <div className="feature" sm="6"></div>
                             <EventList events={this.state.EventsToDisplay} />
                         </Col>
                         {/* <Col sm="2">
 
                         </Col> */}
                         <Col sm="6">
-                            <img src={calendar} alt="calendar"/>
+                            <img className="calendar" src={calendar} alt="calendar"/>
                         </Col>
-                    {/* <Row> */}
-                        
-                    {/* </Row> */}
-                    </Row>
-                    
-                </Container>
+                    </Row> 
             </div>
-     
             )
     }
 }

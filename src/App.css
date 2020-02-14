@@ -25,35 +25,58 @@ main {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  /* color: white; */
 }
 
-.home-jumbotron {
+/* .home-jumbotron {
   padding: 10px;
   font-family: 'Luminari';
+} */
+
+.browse-background {
+  background-image: url('./static/img/HomeHero2.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 275px;
+  margin: 0 auto;
+  margin-top: 15px;
 }
 
 .events {
   list-style-type: none;
   padding-left: 103px;
   max-width: 500px;
+  margin: 0 auto;
 }
 
 .filter-input {
+  margin-top: 5px;
   padding-left: 150px;
   padding-top: 0px;
+}
+
+.feature {
+  background-image: url('./static/img/FeaturedEvent2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  margin-left: 147px;
+  margin-top: 20px;
 }
 
 ul {
   padding: 25px;
 }
 
-.jumbotron-main {
-  background-image: url('./static/img/HomeHero.png');
+.home {
+  background-image: url('./static/img/HomeHero1.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  background-color: white;
+  /* background-color: white; */
   height: 375px;
   cursor: url("https://img.icons8.com/color/48/000000/fantasy.png"), auto;
   margin-bottom: 0;
@@ -103,10 +126,10 @@ h5 {
   margin: 0 auto;
 }
 
-.browse {
+/* .browse {
   height: 100vh;
   width: 100vw;
-}
+} */
 
 .sbs-btn {
   margin: 10px;
@@ -118,5 +141,12 @@ h5 {
 
 .card-img {
   height: 145px;
+}
+
+.calendar {
+  padding-top: 90px;
+  padding-right: 35px;
+  height: 395px;
+  width: 385px;
 }
 

@@ -21,11 +21,11 @@ const Home = props => {
     return (
         <div className="home-page">
         <Container>
-            <div className="home-jumbotron">
                 <Link to="/browse">
-                <Jumbotron className="jumbotron-main" sm="12"></Jumbotron>
+                    <div className="home">
+                {/* <Jumbotron className="jumbotron-main" sm="12"></Jumbotron> */}
+                    </div>
                 </Link>
-            </div>
             <Row>
                 <Col sm="6">
                     <h2>Popular Events</h2>
