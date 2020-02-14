@@ -28,14 +28,14 @@ const Event = props => {
             <Col>
                 <Link to="/browse">
                     <Card className="round-border" inverse>
-                        <CardImg className="round-border" width="100%" src="https://placeimg.com/300/200/any" alt="Card image cap" />
-                        <CardImgOverlay className="round-border">
+                        {/* <CardImg className="round-border" width="100%" src="https://placeimg.com/300/200/any" alt="Card image cap" /> */}
+                        {/* <CardImgOverlay className="round-border"> */}
                         <CardTitle><h2><strong>{props.category.title}</strong></h2></CardTitle>
                         {/* <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
                         <CardText>
                             <small className="text-muted">Last updated 3 mins ago</small>
                         </CardText> */}
-                        </CardImgOverlay>
+                        {/* </CardImgOverlay> */}
                     </Card>
                 </Link>
             </Col>
