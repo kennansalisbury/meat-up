@@ -8,11 +8,12 @@ import {Container} from 'reactstrap'
 
 function App() {
   return (
-    <Router>
-      <header>
-        <NavBar />
-      </header>
-      <main>
+    <div className='App'>
+      <Router>
+        <header>
+          <NavBar />
+        </header>
+        <main>
           <Content />
       </main>
       <footer className="footer">
