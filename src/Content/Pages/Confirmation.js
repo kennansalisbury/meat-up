@@ -6,6 +6,21 @@ import {Link} from 'react-router-dom'
 const Confirmation = props => {
     return (
         <Container className="mt">
+            <div class="bird-container bird-container--one">
+                <div class="bird bird--one"></div>
+            </div>
+            <div class="bird-container bird-container--two">
+                <div class="bird bird--two"></div>
+            </div>
+            <div class="bird-container bird-container--three">
+                <div class="bird bird--three"></div>
+            </div>
+            <div class="bird-container bird-container--four">
+                <div class="bird bird--four"></div>
+            </div>
+            <div class="bird-container bird-container--five">
+                <div class="bird bird--five"></div>
+            </div>
             <Row>
                 <h1>Registration complete</h1>
             </Row>
@@ -24,7 +39,7 @@ const Confirmation = props => {
                 </Col>
                 <Col sm="1"></Col>
                 <Col>
-                    <img src={raven} alt="confirmation"/>
+                    {/* <img src={raven} alt="confirmation"/> */}
                 </Col>
             </Row>
             <Row>
