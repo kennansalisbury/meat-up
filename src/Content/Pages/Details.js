@@ -39,7 +39,6 @@ const Details = props => {
     //     var content = (<h1>{selectedEvent.title}</h1>)
     // }
     return (
-        <body>
             <div>
                 <div className="details">
                     <h1>{selectedEvent.title}</h1>
@@ -60,7 +59,6 @@ const Details = props => {
                     
                 </div>
             </div>
-        </body>
     )
 }
 
