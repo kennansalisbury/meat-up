@@ -20,7 +20,7 @@ const Content = props => {
             <Route path='/confirmation' render={
                 () => <Confirmation/>
             }/>
-            <Route path='/details' render={
+            <Route path='/details/:id' render={
                 () => <Details events={Events.data}/>
             }/>
             <Route path='/signup' render={
