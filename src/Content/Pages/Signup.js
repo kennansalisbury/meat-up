@@ -1,10 +1,22 @@
-import React from 'react'
-import { Button, Form, FormGroup, Label, Input, FormText, Container, Row, Col } from 'reactstrap'
+import React, {useState, useEffect} from 'react'
+import { Button, Form, FormGroup, Label, Input, FormText, Container, Row, Col, Jumbotron } from 'reactstrap'
 import { Link } from 'react-router-dom'
 
 const Signup = props => {
+
+    const [showPage, setShowPage] = useState(false)
+
+    useEffect(() => {
+        setShowPage(true)
+    }, [])
+
     return (
         <Container className="mt">
+            <Jumbotron align="center">
+                <h1>Meat-Up: Dragons</h1>
+                <h5>February 12th, Midday</h5>
+                <h5>Roskilde, Denmark</h5>
+            </Jumbotron>
             <h2>Attendee Details</h2>
             <p>Please fill out the following information:</p>
             <Form>

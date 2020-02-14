@@ -8,6 +8,7 @@ import Home from './Pages/Home'
 import Confirmation from './Pages/Confirmation'
 import Details from './Pages/Details'
 import Signup from './Pages/Signup'
+import Directions from './Pages/Directions'
 
 const Content = props => {
     return (
@@ -26,6 +27,9 @@ const Content = props => {
             }/>
             <Route path='/signup' render={
                 () => <Signup/>
+            }/>
+            <Route path='/directions/389sfdlku79098' render={
+                () => <Directions/>
             }/>
         </div>
     )

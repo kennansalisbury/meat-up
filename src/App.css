@@ -29,7 +29,7 @@ ul {
   padding: 25px;
 }
 
-.jumbotron {
+.jumbotron-main {
   background-image: url('./static/img/HomeHero.png');
   background-position: center;
   background-size: contain;
@@ -49,7 +49,10 @@ ul {
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4,
+h5 {
   font-family: 'Luminari';
 }
 
@@ -76,4 +79,24 @@ h2 {
 
 .card-img {
   height: 145px;
+}
+
+.magic-enter {
+  opacity: 0.01;
+}
+
+.magic-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 1000ms, transform 1000ms;
+}
+
+.magic-leave {
+  opacity: 1;
+}
+
+.magic-leave-active {
+  opacity: 0.01;
+  transition: opacity 1000ms, transform 1000ms;
+
 }
