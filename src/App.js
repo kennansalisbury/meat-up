@@ -15,12 +15,11 @@ function App() {
         </header>
         <main>
           <Content />
-        </main>
-      {/* <footer className="footer"> */}
-        {/* <Footer /> */}
-      {/* </footer> */}
+      </main>
+      {/* <footer className="footer">
+        <Footer />
+      </footer> */}
     </Router>
-    </div>
   );
 }
 
