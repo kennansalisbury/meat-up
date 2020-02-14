@@ -92,10 +92,8 @@ h5 {
 }
 
 .browse {
-  background-image: url('./static/img/scroll3.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 100vh;
+  width: 100vw;
 }
 
 .sbs-btn {
@@ -127,5 +125,6 @@ h5 {
 .magic-leave-active {
   opacity: 0.01;
   transition: opacity 1000ms, transform 1000ms;
-
 }
+
+

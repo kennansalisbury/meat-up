@@ -23,7 +23,7 @@ const Event = props => {
     } else if(props.category) {
         return(
             <Col>
-                 <Card inverse>
+                <Card inverse>
                     <CardImg width="100%" src="https://placeimg.com/300/200/any" alt="Card image cap" />
                     <CardImgOverlay>
                     <CardTitle><h2><strong>{props.category.title}</strong></h2></CardTitle>
