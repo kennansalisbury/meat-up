@@ -52,12 +52,12 @@ const Signup = props => {
                             </Input>
                         </FormGroup>
                     </Col>
-                    <Col></Col>
+                    <Col sm="1"></Col>
                     
-                    <Col sm="5">
+                    <Col sm="4">
                         <FormGroup tag="fieldset" align="center">
                             <Row>
-                                <Label>Choose yer carnivoratar</Label>
+                                <Label><h2>Choose yer carnivoratar</h2></Label>
                             </Row>
                             <Row>
                                 <Col>

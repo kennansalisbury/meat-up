@@ -64,6 +64,10 @@ main {
   width: 45vw;
 }
 
+p{
+  font-size: 20px;
+}
+
 .feature {
   background-image: url('./static/img/FeaturedEvent2.png');
   background-repeat: no-repeat;

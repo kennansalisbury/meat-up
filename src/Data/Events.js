@@ -25,7 +25,7 @@ const Events = {
             "id": "i74kjh83",
             "desc": "Instead of going to a lame Destiny discussion come immerse yourself in the fantastical world building of Sarah King. New players and veterans are welcome!",
             "host": "Sarah King",
-            "image": "https://i.imgur.com/pcdViuT.png",
+            "image": "https://i.imgur.com/zuKg5fZ.png",
             "time": "6pm - 10pm"
         },
         {
