@@ -22,7 +22,7 @@ const Home = props => {
         <div className="home-page">
         <Container>
                 <Link to="/browse">
-                    <div className="home">
+                    <div className="home mb-5">
                 {/* <Jumbotron className="jumbotron-main" sm="12"></Jumbotron> */}
                     </div>
                 </Link>
@@ -32,7 +32,7 @@ const Home = props => {
                 </Col>
                 <Col sm="5"></Col>
                 <Col sm="1">
-                    <Link className="link-black" to="#">See all</Link>
+                    <Link className="link-black bold" to="#">See all</Link>
                 </Col>
             </Row>
             <div className="mb-5">
@@ -46,7 +46,7 @@ const Home = props => {
                     </Col>
                     <Col sm="5"></Col>
                     <Col sm="1">
-                        <p>See all</p>
+                        <Link className="link-black bold" to="#">See all</Link>
                     </Col>
                 </Row>
             <div className="mb-5">
@@ -60,7 +60,7 @@ const Home = props => {
                     </Col>
                     <Col sm="5"></Col>
                     <Col sm="1">
-                        <p>See all</p>
+                        <Link className="link-black bold" to="#">See all</Link>
                     </Col>
                 </Row>
             <div className="mb-5">
