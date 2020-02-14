@@ -26,7 +26,7 @@ class Browse extends React.Component{
 
         render () {
             return (
-            <div className='app'>
+            <div className='browse'>
                 <FilterInput value={this.state.filterValue} handleFilterChange={this.handleFilterChange} />
                 <EventList events={this.state.EventsToDisplay} />
             </div>

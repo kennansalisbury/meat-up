@@ -1,3 +1,9 @@
+.App {
+  background-image: url('./static/img/scroll3.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .App-header {
   background-color: #282c34;
@@ -68,14 +74,31 @@ h2 {
   color: black;
 }
 
+.details {
+  font-family: 'Luminari';
+  width: 40vw;
+  padding-top: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .event-details {
   font-family: 'Luminari';
   width: 40vw;
   margin: 0 auto;
 }
 
-.details-jumbotron {
-  font-family: 'Luminari';
-  width: 50vw;
-  margin: 0 auto;
+.browse {
+  background-image: url('./static/img/scroll3.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+
+
+
+
+
+
+

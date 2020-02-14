@@ -36,26 +36,21 @@ const Details = props => {
     //     var content = (<h1>{selectedEvent.title}</h1>)
     // }
     return (
-        <div className="details">
-            <div className="details-jumbotron">
-                <Jumbotron className="jumbotron" sm="12">
-                    <Col align="center">
-                        <br/>
-                        <h1>{selectedEvent.title}</h1>
-                        <h5>{selectedEvent.date}</h5>
-                        <h5>{selectedEvent.loc}</h5>
-                    </Col>
-                </Jumbotron>
+        <div>
+            <div className="details">
+                <h1>{selectedEvent.title}</h1>
+                <h5>{selectedEvent.date}</h5>
+                <h5>{selectedEvent.loc}</h5>
             </div>
-                <div className="event-details">
-                    <h3>Event Details</h3>
-                    <p>{selectedEvent.desc}</p>
-                    <h3>What to Bring</h3>
-                    <ul>
-                        <li>{content}</li>
-                    </ul>
-                    <Button>Attend This Event</Button>
-                </div>
+            <div className="event-details">
+                <h3>Event Details</h3>
+                <p>{selectedEvent.desc}</p>
+                <h3>What to Bring</h3>
+                <ul>
+                    <li>{content}</li>
+                </ul>
+                <Button>Attend This Event</Button>
+            </div>
         </div>
     )
 }

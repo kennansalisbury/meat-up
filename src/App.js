@@ -6,17 +6,19 @@ import NavBar from './nav/Nav'
 
 function App() {
   return (
-    <Router>
-      <header>
-        <NavBar />
-      </header>
-      <main>
-        <Content />
-      </main>
-      <footer>
-        STUB FOOTER
-      </footer>
-    </Router>
+    <div className='App'>
+      <Router>
+        <header>
+          <NavBar />
+        </header>
+        <main>
+          <Content />
+        </main>
+        <footer>
+          STUB FOOTER
+        </footer>
+      </Router>
+    </div>
   );
 }
 
