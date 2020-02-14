@@ -25,7 +25,11 @@ const Confirmation = props => {
             <Row>
                 <h1>Registration complete</h1>
             </Row>
+             <br/>
+                <br/>
+                <br/>
             <Row>
+
                 <Col sm="6">
                     <p>Thank you for registering: </p>
                     <Row>
@@ -47,9 +51,14 @@ const Confirmation = props => {
                 <Link className="link" to="/directions/389sfdlku79098"><Button className="sbs-btn">Get Directions</Button></Link>
                 <Link className="link" to="/browse"><Button className="sbs-btn">Browse More Events</Button></Link>
             </Row>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
             <Row className="mt">
                 <Row>
-                <h2>Recommended for ye:</h2>
+                <h2>Also recommended for ye:</h2>
                 </Row>
 
                 <Row>
@@ -57,7 +66,7 @@ const Confirmation = props => {
                 <Card>
                     <CardImg top width="100%" src="https://previews.123rf.com/images/movingmoment/movingmoment1612/movingmoment161200027/70927074-single-grilled-hamburger-patty-isolated-on-white-.jpg" alt="Card image cap" />
                     <CardBody>
-                    <CardTitle><a className="link-black" href="#">Meat Singles Near You</a></CardTitle>
+                    <CardTitle ><a className="link-black" href="#">Meat Singles Near You</a></CardTitle>
                     {/* <CardSubtitle>Card subtitle</CardSubtitle>
                     <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText> */}
                     {/* <Button className="link" size="sm">View</Button> */}

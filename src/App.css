@@ -1,10 +1,11 @@
 body {
-  background-image: url('./static/img/scroll3.png');
-  background-position: center;
+  background-image: url('./static/img/scroll_copy.jpg');
+  background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
-  min-width: 100%;
-  min-height: 100%;
+  background-size: 125% auto;
+  background-attachment: fixed;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 main {
@@ -61,6 +62,10 @@ main {
 }
 .wider {
   width: 45vw;
+}
+
+p{
+  font-size: 20px;
 }
 
 .feature {
