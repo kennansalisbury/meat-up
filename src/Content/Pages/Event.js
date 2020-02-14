@@ -26,7 +26,7 @@ const Event = props => {
     } else if(props.category) {
         return(
             <Col>
-                <Link to="/browse">
+                <Link className="link" to="/browse">
                     <Card className="round-border" inverse>
                         {/* <CardImg className="round-border" width="100%" src="https://placeimg.com/300/200/any" alt="Card image cap" /> */}
                         {/* <CardImgOverlay className="round-border"> */}

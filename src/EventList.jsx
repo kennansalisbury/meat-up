@@ -22,11 +22,12 @@ const EventList = props => {
                     </Col>
                     <Col> 
                         <CardTitle><h2>{e.title}</h2></CardTitle>
+                        <CardText>{e.date}</CardText>
                         <CardText>{e.desc}</CardText>
                     
                         {/* <CardSubtitle>Card subtitle</CardSubtitle>
                         <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText> */}
-                        <Button><Link className='link' to={`details/${e.id}`}>View More Info</Link></Button>
+                        <Link className='link' to={`details/${e.id}`}><Button>View More Info</Button></Link>
                         </Col>
                     </Row>
                     </CardBody>

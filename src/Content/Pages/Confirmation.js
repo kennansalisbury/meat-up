@@ -32,13 +32,17 @@ const Confirmation = props => {
 
                 <Col sm="6">
                     <h3>Thank you for registering: </h3>
+                    <br/>
+                    <br/>
                     <Row>
                         <Col sm="2">
                             <img src="https://img.icons8.com/color/48/000000/jamon.png" alt="turkey-leg"/>
                         </Col>
                         <Col sm="2">
                             <h2>{props.user.name}</h2>
+                            <br/>
                         </Col>
+                      
                     </Row>
                     <p><strong>Your confirmation and ticket to enter the event will arrive to your clan via Raven within the next few days. Bring the Raven and your ticket to the event as proof of registration.</strong></p>
                 </Col>
@@ -77,7 +81,7 @@ const Confirmation = props => {
                 <Card>
                     <CardImg className="card-img" top src="http://www.castlesandmanorhouses.com/pics/suckling.jpg" alt="Card image cap" />
                     <CardBody>
-                    <CardTitle><a className="link-black" href="#">5 Tips for Meat Prep</a></CardTitle>
+                    <CardTitle><a className="link-black" href="#">5 Tips for Boar Meat Prep</a></CardTitle>
                     {/* <CardSubtitle>Card subtitle</CardSubtitle>
                     <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText> */}
                     {/* <Button className="link" size="sm">View</Button> */}

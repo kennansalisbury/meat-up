@@ -57,7 +57,7 @@ const Signup = props => {
                     <Col sm="4">
                         <FormGroup tag="fieldset" align="center">
                             <Row>
-                                <Label><h2>Choose yer carnivoratar</h2></Label>
+                                <Label><h2>Choose yer Carnivoratar</h2></Label>
                             </Row>
                             <Row>
                                 <Col>
