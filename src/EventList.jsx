@@ -6,22 +6,20 @@ import { Link } from 'react-router-dom'
 
 const EventList = props => {
     
-        
-
-    var eventList = props.events.map(event => <ul>{event.title}</ul>)
+    // var eventList = props.events.map(event => <ul>{event.title}</ul>)
     let content;
-    if (eventList.length > 0) (
-        content = eventList.map((e, i) => {
+    if (props.events.length > 0) (
+        content = props.events.map((e, i) => {
             return (
             <div >
                 <Col>
                 <Card key={i}>
                     <CardImg top width="100%" src="https://placeimg.com/200/200/any" alt="Card image cap" />
                     <CardBody>
-                    <CardTitle>{e}</CardTitle>
+                    <CardTitle>{e.title}</CardTitle>
                     {/* <CardSubtitle>Card subtitle</CardSubtitle>
                     <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText> */}
-                    <Button><Link to='details/{Events.data.id}'>View More Info</Link></Button>
+                    <Button><Link className='link' to={`details/${e.id}`}>View More Info</Link></Button>
                     </CardBody>
                 </Card>
                 </Col>
