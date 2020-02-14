@@ -23,6 +23,7 @@ const EventList = props => {
                     </CardBody>
                 </Card>
                 </Col>
+                <br />
             </div>
             )
         })
