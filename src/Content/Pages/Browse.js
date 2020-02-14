@@ -28,7 +28,9 @@ class Browse extends React.Component{
 
         render () {
             return (
-                <Container>
+
+               <div className='browse'>
+               <Container>
                     <Jumbotron className="jumbotron-main" sm="12"></Jumbotron>
                     <Row>
                         <Col>
@@ -45,6 +47,7 @@ class Browse extends React.Component{
                     </Row>
                     
                 </Container>
+            </div>
             )
     }
 }
