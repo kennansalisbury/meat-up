@@ -4,6 +4,7 @@ import EventList from '../../EventList'
 import {Container, Row, Col, Jumbotron} from 'reactstrap'
 import {Link} from 'react-router-dom'
 import Calendar from '../../static/img/calendar.png'
+import Feature from '../../static/img/FeaturedEvent2.png'
 
 
 
@@ -30,26 +31,34 @@ class Browse extends React.Component{
         render () {
 
             return (
-            <div className="browse">
+            <div className="browse ml">
                 <div className="browse-background"></div>
-                    <Row>
-                        <Col sm="1"></Col>
+                    <Row >
                         <Col align="left">
                             <FilterInput value={this.state.filterValue} handleFilterChange={this.handleFilterChange} />
-                            <Link to="/details/16"><div className="feature" sm="6"></div></Link>
-                            <br/>
-                            <br/>
-                            <div className="ml"><h3>Events</h3></div>
-                            
-                            <EventList events={this.state.EventsToDisplay} />
                         </Col>
-                        {/* <Col sm="2">
+                    </Row>
+                    <br/>
 
-                        </Col> */}
-                        <Col sm="6">
+                    <Row>
+                        <Col sm="1"></Col>
+                        <Col sm="5" align="left">
+                            <Link to="/details/16"><img src={Feature}/></Link>
+                        </Col>
+                        <Col sm="1"></Col>
+                        <Col sm="5">
                             <img className="calendar" src={Calendar} alt="calendar"/>
                         </Col>
                     </Row> 
+                    <br/>
+                    <br/>
+                    <h3>Events</h3>
+                            <br/>
+                            <br/> 
+                    <Row align="left">
+                        
+                        <EventList events={this.state.EventsToDisplay} />
+                    </Row>
                     <hr/>
             </div>
             )

@@ -7,7 +7,9 @@ const Home = props => {
     
     //for each event, return event component with event data passed as prop
     let displayPopularEvents = props.events.map(event => {
-        return <Event event={event}/>
+        if(event.id != 16) {
+            return <Event event={event}/>
+        }
     })
 
     let displayNearEvents = props.nearEvents.map(event => {

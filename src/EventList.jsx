@@ -11,30 +11,28 @@ const EventList = props => {
     if (props.events.length > 0) (
         content = props.events.map((e, i) => {
             return (
-            <div >
-                {/* <Col> */}
-                <Card key={i} className="wider" align="left">
-                    {/* <CardImg top width="100%" src="https://placeimg.com/200/200/any" alt="Card image cap" /> */}
-                    <CardBody>
-                    <Row>
-                    <Col sm="3">     
-                        <CardImg src={e.image} alt="Card image cap" />
-                    </Col>
-                    <Col> 
-                        <CardTitle><h2>{e.title}</h2></CardTitle>
-                        <CardText>{e.date}</CardText>
-                        <CardText>{e.desc}</CardText>
-                    
-                        {/* <CardSubtitle>Card subtitle</CardSubtitle>
-                        <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText> */}
-                        <Link className='link' to={`details/${e.id}`}><Button>View More Info</Button></Link>
+                <div>
+                    <Card key={i} className="wider" align="left">
+                        {/* <CardImg top width="100%" src="https://placeimg.com/200/200/any" alt="Card image cap" /> */}
+                        <CardBody>
+                        <Row>
+                        <Col sm="3">     
+                            <CardImg src={e.image} alt="Card image cap" />
                         </Col>
-                    </Row>
-                    </CardBody>
-                </Card>
-                {/* </Col> */}
-                <br/>
-            </div>
+                        <Col> 
+                            <CardTitle><h2>{e.title}</h2></CardTitle>
+                            <CardText>{e.date}</CardText>
+                            <CardText>{e.desc}</CardText>
+                        
+                            {/* <CardSubtitle>Card subtitle</CardSubtitle>
+                            <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText> */}
+                            <Link className='link' to={`details/${e.id}`}><Button>View More Info</Button></Link>
+                            </Col>
+                        </Row>
+                        </CardBody>
+                    </Card>
+                    <br/>
+                </div>
             )
         })
     )

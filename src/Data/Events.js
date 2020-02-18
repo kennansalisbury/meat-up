@@ -40,17 +40,6 @@ const Events = {
             "time": "6pm - 10pm"
         },
         {
-            "title": "Hungary",
-            "date" : "February 20, 1467",
-            "loc": "Hungary",
-            "attendies": 4,
-            "id": "4",
-            "desc": "Hungary Hungary Horntail Dragons! Journey to Hungary and hunt some Hungarian horntail dragons.",
-            "host": "Bob Bobbington",
-            "image": "https://i.imgur.com/vqTZHoi.png",
-            "time": "6pm - 10pm"
-        },
-        {
             "title": "Axe Sharpening",
             "date" : "February 24, 1467",
             "loc": "The woods",
@@ -59,6 +48,17 @@ const Events = {
             "desc": "Learn how to give your axe the perfect edge from a master in axes.",
             "host": "Sarah King",
             "image": "https://i.imgur.com/hakQvcO.png",
+            "time": "6pm - 10pm"
+        },
+        {
+            "title": "Hungary",
+            "date" : "February 20, 1467",
+            "loc": "Hungary",
+            "attendies": 4,
+            "id": "4",
+            "desc": "Journey to Hungary and sample special Hungarian horntail dragons that are sure to impress your 'Hungary' Chief.",
+            "host": "Bob Bobbington",
+            "image": "https://i.imgur.com/vqTZHoi.png",
             "time": "6pm - 10pm"
         },
         {
