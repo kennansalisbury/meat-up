@@ -3,7 +3,7 @@ import FilterInput from '../../FilterInput'
 import EventList from '../../EventList'
 import {Container, Row, Col, Jumbotron} from 'reactstrap'
 import {Link} from 'react-router-dom'
-import Calendar from '../../static/img/calendar.png'
+import Calendar from '../../static/img/Calendar.png'
 import Feature from '../../static/img/FeaturedEvent2.png'
 
 
